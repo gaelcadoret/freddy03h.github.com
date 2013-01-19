@@ -1,0 +1,234 @@
+[ 
+  {
+      "title": "MangaCollec", 
+      "slug": "mangacollec",
+      "thumbnail": {
+      	"title": "MangaCollec",
+      	"img": {
+      		"src": "img/mangacollec.png",
+      		"alt": "Site CakePHP MangaCollec de gestion de manga"
+      	},
+      	"body": "Conception d'une base de données et développement du site avec une architecture MVC grâce à CakePHP. Interface interactive avec jQuery UI. API Amazon."
+      },
+      "img":[
+      	"project/mangacollec/image01.png",
+      	"project/mangacollec/image02.png",
+      	"project/mangacollec/image03.png"
+      ],
+      "presentation":"Site permettant de gérer sa mangathèque en ligne et sur mobile. Le service propose des séries en fonction de ses goûts, le planning personnalisé en fonction de sa collection, de commenter indépendamment les séries, les éditions et chaques volumes. Les utilisateurs peuvent ajouter des séries et des volumes à la base de données au travers d'un formulaire qui peut être pré-remplis grâce à une recherche dans la base de données d'Amazon.",
+      "context":"Projet de fin d'études commencé en 2011.",
+      "state":"En cours de réalisation",
+      "skill":"CakePHP, PHP, Merise, MySQL, jQuery, jQuery Mobile, API Amazon."
+  }, 
+  {
+      "title": "Site du film Petites Causes Grandes Conséquences",   
+      "slug": "sitepcgc",
+      "thumbnail": {
+      	"title": "Site du film PCGC",
+      	"img": {
+      		"src": "img/sitepcgc.png",
+      		"alt": "Site Flex du court métrage Petites Causes Grandes Conséquence"
+      	},
+      	"body": "Site en Flex d'un court métrage d'animation 3D. Découpage d'une maquette PSD et design interactif sous Fl Catalyst puis développement AS3 avec Fl Builder."
+      },
+      "img":[
+      	"project/sitepcgc/image01.png",
+      	"project/sitepcgc/image02.png",
+      	"project/sitepcgc/image03.png"
+      ],
+      "url":"http://www.petitescauses-grandesconsequences.fr/",
+      "presentation":"Site présentant le court métrage en 3D réalisé dans le cadre du projet Rhizome. Le design graphique est réalisé sous Photoshop par <a href=\"http://renaudurier.free.fr/\" target=\"_blank\">Renaud Durier</a>. Ce site constitue mon premier projet Flex et ma première utilisation de Flash Catalyst pour le travail de découpe de maquette et de design interactif.",
+      "context":"Projet collectif de 1re année du Master PSM.",
+      "state":"<a href=\"http://sovannart.com/petitescausesgrandesconsequences/\" target=\"_blank\">Consulter le site en ligne.</a>",
+      "skill":"Actionscript 3, Flex 4, Flash Catalyst, Flash Builder."
+  },
+  {
+      "title": "Maquette du site PSM",   
+      "slug": "psmcss",
+      "thumbnail": {
+      	"title": "Intégration HTML5/CSS3",
+      	"img": {
+      		"src": "img/psmcss.png",
+      		"alt": "Site PSM Intégration HTML5 CSS3"
+      	},
+      	"body": "Création du design sous Photoshop puis intégration en respectant la sémantique des balises HTML5 et en supprimant les images de design grâce à CSS3."
+      },
+      "img":[
+      	"project/psmcss/image01.png",
+      	"project/psmcss/image02.png",
+      	"project/psmcss/image03.png"
+      ],
+      "presentation":"Projet scolaire de création de design graphique et d'intégration HTML/CSS. Le but étant l'utilisation d'une grille CSS, le respect de la sémantique HTML 5 et la réduction des images de design grâce aux possibilités de CSS 3.",
+      "context":"Travail individuel de 1re année du Master PSM.",
+      "state":"La page d'<a href=\"/csspsm/index.html\" target=\"_blank\">accueil</a>, le <a href=\"/csspsm/blog.html\" target=\"_blank\">blog</a> et la <a href=\"/csspsm/galerie.html\" target=\"_blank\">galerie</a>.",
+      "skill":"Photoshop, HTML 5, CSS 3."
+  },
+  {
+      "title": "Courant continu, projet d'eLearning",   
+      "slug": "courantcontinu",
+      "thumbnail": {
+      	"title": "Application eLearning",
+      	"img": {
+      		"src": "img/courantcontinu.png",
+      		"alt": "Objet pédagogique intéractif sur les courants continus"
+      	},
+      	"body": "Conception et réalisation d'un objet pédagogique en ActionScript 3 visant à apprendre les concepts de puissances électriques à l'aide d'un circuit interactif."
+      },
+      "img":[
+      	"project/courantcontinu/image01.png",
+      	"project/courantcontinu/image02.png",
+      	"project/courantcontinu/image03.png"
+      ],
+      "presentation":"Conception ergonomique et didactique de l'application pour permettre un apprentissage le plus efficace possible des notions présentées. Des dispositifs interactifs mettent en scène lʼutilisateur pour une meilleure efficacité. Le design graphique est signé <a href=\"http://www.behance.net/XavierF\" target=\"_blank\">Xavier Faudot</a>. Chaque participant du projet avait la tâche de réaliser un chapitre, mais j'ai aussi réalisé la bibliothèque partagée et l'ossature de l'application qui charge les différentes parties.",
+      "context":"Projet collectif de 3e année de Licence SLIC/CM.",
+      "state":"Travail non-consultable en ligne.",
+      "skill":"Actionscript 3, Didactique."
+  },
+  {
+      "title": "Sphère 3D Flash",   
+      "slug": "sphere3d",
+      "thumbnail": {
+      	"title": "Sphère 3D Flash",
+      	"img": {
+      		"src": "img/sphere3d.png",
+      		"alt": "Flash Actionscript 3 Sphère 3D"
+      	},
+      	"body": "Développement Actionscript 3. Récupération de photos sur Picasa via un flux mRSS et affichage sur une sphère 3D interactive grâce aux matrices de transformation 3D."
+      },
+      "img":[
+      	"project/sphere3d/image01.png",
+      	"project/sphere3d/image02.png",
+      	"project/sphere3d/image03.png"
+      ],
+      "presentation":"Développement d'une sphère interactive donnant l'illusion d'être en 3 dimensions grâce à la classe Matrix3D introduit dans le Flash Player 10. Chargement asynchrone des photos d'un flux mRSS sur Picasa classiquement avec un URLLoader et chargement des images avec Loader.",
+      "context":"Travail individuel de 1re année du Master PSM.",
+      "state":"Travail non-consultable en ligne.",
+      "skill":"Flash, ActionScript 3."
+  },
+  {
+      "title": "TaskManager, Webservice RESTful",  
+      "slug": "tasksrestful",
+      "thumbnail": {
+      	"title": "Webservice RESTful",
+      	"img": {
+      		"src": "img/tasksrestful.png",
+      		"alt": "Webservice de liste de tâches en RESTful"
+      	},
+      	"body": "Service de liste de tâches proposant une API RESTful développée avec CakePHP. Elle permet les actions CRUD, l'authentification HTTP. Accessible XML et JSON."
+      },
+      "img":[
+      	"project/tasksrestful/image01.png",
+      	"project/tasksrestful/image02.png",
+      	"project/tasksrestful/image03.png"
+      ],
+      "presentation":"Conception et réalisation d'un service de gestion de tâches accessible au travers d'un navigateur et via une API RESTful disposant d'une authentification HTTP et des actions CRUD (Create, Read, Update, Delete) conformément aux verbes HTTP (POST, GET, PUT, DELETE). Le webservice est accessible en XML et JSON. Une authentification avec OAuth 2 est à l'étude.",
+      "context":"Projet individuel de 1re année du Master PSM en parcours Intégration Multimédia.",
+      "state":"Projet non-consultable en ligne.",
+      "skill":"PHP, MySQL, CakePHP, HTTP, API REST."
+  },
+  {
+      "title": "Gamemouv",   
+      "slug": "gamemouv",
+      "thumbnail": {
+      	"title": "Gamemouv",
+      	"img": {
+      		"src": "img/gamemouv.png",
+      		"alt": "Site CakePHP Gamemouv de jeu à instant gagnant"
+      	},
+      	"body": "Site de jeu à instant gagnant développé avec CakePHP. Gestion des appels/sms grâce au système Allopass avec vérification. Base de données et connexion utilisateur."
+      },
+      "img":[
+      	"project/gamemouv/image01.png",
+      	"project/gamemouv/image02.png",
+      	"project/gamemouv/image03.png"
+      ],
+      "presentation":"Le projet consiste en un site internet de jeu à instant gagnant permettant aux internautes de gagner des lots. Le site utilise le système Allopass. le site web permet aux internautes de gagner des lots. Le choix de la base de données s'est porté sur MySQL, et le choix d'un framework MVC s'est imposé de part ses multiples avantages : entre autres un cadre de développement structuré et conventionné mais toujours flexible, un temps de développement réduit et une évolution facilitée par lʼarchitecture MVC.",
+      "context":"Projet individuel de 3e année de Licence SLIC/CM.",
+      "state":"Projet hors ligne, ce type de jeu nécessite d'être une entreprise et de déposer un règlement chez un huissier.",
+      "skill":"PHP, MySQL, CakePHP, API Allopass."
+  },
+  {
+      "title": "Photomaton Webcam",   
+      "slug": "frogomaton",
+      "thumbnail": {
+      	"title": "Photomaton Webcam",
+      	"img": {
+      		"src": "img/frogomaton.png",
+      		"alt": "Flash Photomaton Webcam AMFPHP"
+      	},
+      	"body": "Module Flash pour un événementiel développé pendant un stage. Permet la prise de photo grâce à la webcam, et la sauvegarde sur le serveur via une passerelle AMFPHP."
+      },
+      "img":[
+      	"project/frogomaton/image01.png",
+      	"project/frogomaton/image02.png",
+      	"project/frogomaton/image03.png"
+      ],
+      "presentation":"Les visiteurs peuvent, avec leur webcam, se prendre en photo en choisissant le contexte dans lequel ils prennent leur photo. Le module communique avec la passerelle (côté serveur) pour enregistrer les images et envoyer les emails. Le module est simple à utiliser grâce à une interface agréable et à des animations effectuées avec la classe GTween.",
+      "context":"Projet de stage de 3e année de Licence SLIC/CM.",
+      "state":"Utilisé par l'entreprise.",
+      "skill":"Flash, ActionScript 3, GTween, AMFPHP, PHP."
+  },
+  {
+      "title": "Plugins JWPlayer",   
+      "slug": "pluginjw",
+     "thumbnail": {
+      	"title": "Plugins JWPlayer",
+      	"img": {
+      		"src": "img/pluginjw.png",
+      		"alt": "Flash plugins JWPlayer"
+      	},
+      	"body": "Développé pendant un stage, ces plugins pour JWPlayer (player vidéo Flash très utilisé) permettent l'affichage de bandeau pub et le sous titrage d'événements en live."
+      },
+      "img":[
+      	"project/pluginjw/image01.png",
+      	"project/pluginjw/image02.png",
+      	"project/pluginjw/image03.png"
+      ],
+      "presentation":"Le JW Player est un player répandu dont un intérêt réside dans la facilité de création dʼun plugin avec le SDK proposé.<br/>Le premier plugin permet la mise en place d'un service publicitaire en mode bandeau image, texte ou plein écran.<br/>Le second permet dʼafficher du texte comme des sous titres ou d'afficher une image pour un événement en live. Le plugin constitue la partie front-office, un autre module Flash constitue le back-office et permet d'envoyer les messages au serveur.",
+      "context":"Projet de stage de 3e année de Licence SLIC/CM.",
+      "state":"Utilisé par l'entreprise.",
+      "skill":"Flash, ActionScript 3, AMF, JWPlayer."
+  },
+  {
+      "title": "Ancien Portfolio Ajax",   
+      "slug": "oldportfolio",
+      "thumbnail": {
+      	"title": "Ancien Portfolio Ajax",
+      	"img": {
+      		"src": "img/oldportfolio.png",
+      		"alt": "Ancien portfolio ajax jQuery"
+      	},
+      	"body": "Premier portfolio présentant mes travaux de début d'études. Les animations et le chargement asynchrone des contenus des pages furent réalisées avec jQuery."
+      },
+      "img":[
+      	"project/oldportfolio/image01.png",
+      	"project/oldportfolio/image02.png",
+      	"project/oldportfolio/image03.png"
+      ],
+      "presentation": "Mon précédent portfolio présentant mes travaux réalisés pendant le DUT SRC. Il comprenait un back-office réalisé en PHP et MySQL. Le chargement des pages s'effectuait en Javascript et proposait une transition animée. Le site restait accessible même si le Javascript était désactivé.",
+      "context":"Projet personnel de 2e année du DUT SRC.",
+      "state":"Ce projet n'est plus en ligne.",
+      "skill":"PHP, MySQL, xHTML, CSS, Javascript, jQuery, Photoshop."
+  }/*,
+  {
+      "title": "Intégration xHTML/CSS",   
+      "slug": "lepuyhotel",
+      "thumbnail": {
+      	"title": "Intégration xHTML/CSS",
+      	"img": {
+      		"src": "img/lepuyhotel.png",
+      		"alt": "Site Intégration xHTML CSS"
+      	},
+      	"body": "Intégration d'une maquette PSD en xHTML 1, CSS 2 et des quelques éléments intéractifs en Javascript/jQuery. Réalisé lors d'un stage. Compatible tous navigateurs."
+      },
+      "img":[
+      	"project/lepuyhotel/image01.png",
+      	"project/lepuyhotel/image02.png",
+      	"project/lepuyhotel/image01.png"
+      ],
+      "presentation":"Travail classique d'intégration d'une maquette Photoshop en xHTML/CSS. Étant un site réalisé en 2009 et destiné à un public très large, il est compatible avec d'anciennes version d'Internet Explorer en utilisant les commentaires conditionnels pour redéfinir quelques points de style défaillant sur ce navigateur. Cette technique permet de ne pas utiliser de hack CSS et de garder une sémantique HTML cohérente.",
+      "context":"Projet de stage de 2e année du DUT SRC.",
+      "state":"La version utilisée par l'entreprise n'est pas la mienne. Mais vous pouvez la consulter ici.",
+      "skill":"xHTML, CSS, Javascript, jQuery, Photoshop."
+  }*/
+] 
