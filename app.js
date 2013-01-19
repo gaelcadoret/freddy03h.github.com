@@ -143,4 +143,4 @@ Portfolio.Router = Backbone.Router.extend({
 //MAIN
 
 var router = new Portfolio.Router();
-Backbone.history.start({pushState: true, root: "/"});
+Backbone.history.start({/*pushState: true,*/ root: "/"});
