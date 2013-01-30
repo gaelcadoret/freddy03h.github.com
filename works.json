@@ -1,5 +1,26 @@
 [ 
   {
+      "title": "Thalys webapp", 
+      "slug": "thalys",
+      "thumbnail": {
+            "title": "Thalys",
+            "img": {
+                  "src": "img/thalys.png",
+                  "alt": "Application web mobile de Thalys"
+            },
+            "body": "Développement de l'application web mobile avec Require et Backbone. Connectée à une API JSON. Compatible iOS, Android, Windows Phone et BlackBerry."
+      },
+      "img":[
+            "project/thalys/image01.png",
+            "project/thalys/image02.png",
+            "project/thalys/image03.png"
+      ],
+      "presentation":"Application web mobile officielle de Thalys. Disponible en 4 langues, elle permet de consulter rapidement l'info traffic, les horaires et ses reservations. Elle est ausi compatible avec le système MobileTicket de Thalys. La web-app est indépendante, les applications <a href=\"https://itunes.apple.com/fr/app/thalys/id552867771\" target=\"_blank\">iOS</a> et <a href=\"https://play.google.com/store/apps/details?id=com.thalys.thalys\" target=\"_blank\">Android</a> sont des applications hybrides qui encapsulent et enrichissent la web-app.",
+      "context":"Projet professionnel réalisé chez <a href=\"http://www.useradgents.com\" target=\"_blank\">userADgents</a>.",
+      "state":"Accessible à l'adresse <a href=\"http://m.thalys.com\" target=\"_blank\">m.thalys.com</a>.",
+      "skill":"JavaScript, Backbone.js, Require.js, Underscore.js, jQuery, HTML 5, CSS 3."
+  },
+  {
       "title": "MangaCollec", 
       "slug": "mangacollec",
       "thumbnail": {
@@ -19,7 +40,7 @@
       "context":"Projet de fin d'études commencé en 2011.",
       "state":"En cours de réalisation",
       "skill":"CakePHP, PHP, Merise, MySQL, jQuery, jQuery Mobile, API Amazon."
-  }, 
+  },
   {
       "title": "Site du film Petites Causes Grandes Conséquences",   
       "slug": "sitepcgc",
@@ -167,27 +188,6 @@
       "context":"Projet de stage de 3e année de Licence SLIC/CM.",
       "state":"Utilisé par l'entreprise.",
       "skill":"Flash, ActionScript 3, GTween, AMFPHP, PHP."
-  },
-  {
-      "title": "Plugins JWPlayer",   
-      "slug": "pluginjw",
-     "thumbnail": {
-      	"title": "Plugins JWPlayer",
-      	"img": {
-      		"src": "img/pluginjw.png",
-      		"alt": "Flash plugins JWPlayer"
-      	},
-      	"body": "Développé pendant un stage, ces plugins pour JWPlayer (player vidéo Flash très utilisé) permettent l'affichage de bandeau pub et le sous titrage d'événements en live."
-      },
-      "img":[
-      	"project/pluginjw/image01.png",
-      	"project/pluginjw/image02.png",
-      	"project/pluginjw/image03.png"
-      ],
-      "presentation":"Le JW Player est un player répandu dont un intérêt réside dans la facilité de création dʼun plugin avec le SDK proposé.<br/>Le premier plugin permet la mise en place d'un service publicitaire en mode bandeau image, texte ou plein écran.<br/>Le second permet dʼafficher du texte comme des sous titres ou d'afficher une image pour un événement en live. Le plugin constitue la partie front-office, un autre module Flash constitue le back-office et permet d'envoyer les messages au serveur.",
-      "context":"Projet de stage de 3e année de Licence SLIC/CM.",
-      "state":"Utilisé par l'entreprise.",
-      "skill":"Flash, ActionScript 3, AMF, JWPlayer."
   },
   {
       "title": "Ancien Portfolio Ajax",   
