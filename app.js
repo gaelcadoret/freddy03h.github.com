@@ -101,7 +101,7 @@ Portfolio.WorkModelView = Backbone.View.extend({
     	/*var lightbox = $('#lightbox');
     	lightbox.removeClass('appear').addClass('disappear');
 		$('#lightbox-overlay').on(Portfolio.nameTransitionEnd(),function(e){lightbox.remove();router.navigate('', {trigger: true});});*/
-		router.navigate('', {trigger: true});
+		router.navigate('home', {trigger: true});
     }
 });
 
@@ -116,6 +116,7 @@ Portfolio.Router = Backbone.Router.extend({
 	},
     routes : {
         "work/:id" : "lightboxWork",
+        "home" : "home",
         "" : "home"
     },
 	lightboxWork : function(id) {

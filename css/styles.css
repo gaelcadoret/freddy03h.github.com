@@ -172,7 +172,7 @@ img {
 	}
 	
 	aside{
-	
+		padding-bottom: 1em;
 	}
 	
 	aside p{
@@ -180,22 +180,24 @@ img {
 		font-weight: normal;
 		margin-bottom: 0.7em;
 		text-align: justify;
-		text-indent: 0.8em;
-		line-height: 1.15em;
+		line-height: 1.2em;
 	}
 	
 	aside p:first-letter{
 		font-weight: bold;
+		font-size: 1.2em;
+		margin-right: 0.05em;
 	}
 	
 	aside h2{
 		font-size: 0.85em;
 		font-family: Kontra;
+		font-weight: normal;
 		margin-top: 0.55em;
 		margin-bottom: 0.3em;
 		color:#fff;
 		padding: 0.16em 0.8em;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.25em;
 		border-bottom-left-radius: 14px;
 		border-top-right-radius: 14px;
 		background: #777;
@@ -217,6 +219,16 @@ img {
 		content:"」";
 		margin-left: 0.3em;
 	}*/
+
+	aside h3{
+		font-size: 0.75em;
+		font-weight: normal;
+		margin-top: 0.45em;
+		margin-bottom: 0.3em;
+		letter-spacing: 0.15em;
+		color: #666;
+		text-indent: 0.8em;
+	}
 	
 	aside ul{
 		font-size: 0.6em;
@@ -882,6 +894,10 @@ img {
 	#works{
 	width: 100%;
 	}
+}
+
+#twitter-widget-0{
+	width: 100%;
 }
 
 
