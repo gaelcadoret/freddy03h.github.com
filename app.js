@@ -42,8 +42,7 @@ Portfolio.WorksCollectionView = Backbone.View.extend({
 	initialize : function() {
 	    this.template = _.template($('#works-collection-template').html());
 	
-	    _.bindAll(this, 'render');
-	    this.collection.on('reset', this.render);
+	    this.listenTo(this.collection, 'reset', this.render);
 	},
 	render : function() {
 	    var renderedContent = this.template({ works : this.collection.toJSON() });
