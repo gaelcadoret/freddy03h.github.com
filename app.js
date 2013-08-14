@@ -42,7 +42,7 @@ Portfolio.WorksCollectionView = Backbone.View.extend({
 	initialize : function() {
 	    this.template = _.template($('#works-collection-template').html());
 	
-	    this.listenTo(this.collection, 'reset', this.render);
+	    this.listenTo(this.collection, 'sync', this.render);
 	},
 	render : function() {
 	    var renderedContent = this.template({ works : this.collection.toJSON() });
@@ -61,9 +61,6 @@ Portfolio.WorkModelView = Backbone.View.extend({
 	el : $('body'),
 	initialize : function() {
 	    this.template = _.template($('#lightbox-work-template').html());
-	
-	    /*_.bindAll(this, 'render');
-	    this.collection.bind('reset', this.render);*/
 	},
 	render : function() {
 	    var renderedContent = this.template({ work : this.model.toJSON() });
@@ -124,7 +121,7 @@ Portfolio.Router = Backbone.Router.extend({
 		if(myWork)
 			this.showWork(myWork);
 		else
-			this.myWorks.on('reset', function(){self.lightboxWork(id)});
+			this.myWorks.once('sync', function(){self.lightboxWork(id)});
 		
 	},
 	showWork : function(work){
