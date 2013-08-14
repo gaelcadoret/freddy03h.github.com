@@ -10,20 +10,6 @@ Portfolio.chargerImage = function(img, src){
 	image.src = src;
 }
 
-Portfolio.nameTransitionEnd = function(){
-	var eventName = "";
-	if( $.browser.webkit ) {
-		eventName = "webkitTransitionEnd";
-	} else if( $.browser.mozilla ) {
-		eventName = "transitionend";
-	} else if ($.browser.opera) {
-		eventName = "oTransitionEnd";
-	} else if ($.browser.msie) {
-		eventName = "msTransitionEnd";
-	}
-	return eventName;
-}
-
 //MODEL & COLLECTION
 
 Portfolio.WorkModel = Backbone.Model.extend({
@@ -132,7 +118,7 @@ Portfolio.Router = Backbone.Router.extend({
 		var lightbox = $('#lightbox');
 		if(lightbox.length){
 			lightbox.removeClass('appear').addClass('disappear');
-			$('#lightbox-overlay').on(Portfolio.nameTransitionEnd(),function(e){lightbox.remove();});
+			$('#lightbox-overlay').on('webkitTransitionEnd transitionend',function(e){lightbox.remove();});
 		}
 	}
 });
