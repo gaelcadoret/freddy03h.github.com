@@ -5,10 +5,10 @@ var Portfolio = {};
 Portfolio.chargerImage = function(img, src){
 	var image = new Image();
 	image.onload = function(){
-	  img.setAttribute("src",image.src);
-	}
+		img.setAttribute("src",image.src);
+	};
 	image.src = src;
-}
+};
 
 //MODEL & COLLECTION
 
@@ -26,33 +26,33 @@ Portfolio.WorksCollection = Backbone.Collection.extend({
 Portfolio.WorksCollectionView = Backbone.View.extend({
 	el : $('#works'),
 	initialize : function() {
-	    this.template = _.template($('#works-collection-template').html());
-	
-	    this.listenTo(this.collection, 'sync', this.render);
+		this.template = _.template($('#works-collection-template').html());
+
+		this.listenTo(this.collection, 'sync', this.render);
 	},
 	render : function() {
-	    var renderedContent = this.template({ works : this.collection.toJSON() });
-	    $(this.el).append(renderedContent);
-	    return this;
+		var renderedContent = this.template({ works : this.collection.toJSON() });
+		$(this.el).append(renderedContent);
+		return this;
 	},
 	events : {
-        'click article' : 'openLightbox'
-    },
-    openLightbox : function(e) {
-    	router.navigate('work/'+e.currentTarget.dataset.slug, {trigger: true});
-    }
+		'click article' : 'openLightbox'
+	},
+	openLightbox : function(e) {
+		router.navigate('work/'+e.currentTarget.dataset.slug, {trigger: true});
+	}
 });
 
 Portfolio.WorkModelView = Backbone.View.extend({
 	el : $('body'),
 	initialize : function() {
-	    this.template = _.template($('#lightbox-work-template').html());
+		this.template = _.template($('#lightbox-work-template').html());
 	},
 	render : function() {
-	    var renderedContent = this.template({ work : this.model.toJSON() });
-	    this.$el.append(renderedContent);
-	    this.openLightBox();
-	    return this;
+		var renderedContent = this.template({ work : this.model.toJSON() });
+		this.$el.append(renderedContent);
+		this.openLightBox();
+		return this;
 	},
 	openLightBox : function(){
 		var lightboxImg=$('#lightbox-image');
@@ -62,29 +62,26 @@ Portfolio.WorkModelView = Backbone.View.extend({
 		Portfolio.chargerImage(imgsDiv[0], imgsSrc[0]);
 		Portfolio.chargerImage(imgsDiv[1], imgsSrc[1]);
 		Portfolio.chargerImage(imgsDiv[2], imgsSrc[2]);
-	
-		var fenetre=$('#lightbox .row');
+
+		var fenetre = $('#lightbox .row');
 		var fenetreHeight = fenetre.height();
 		var windowInnerHeight = window.innerHeight;
-		var topScroll=$(document).scrollTop();
-		
-		if(fenetreHeight<(windowInnerHeight-40))
-			topScroll+=((windowInnerHeight-fenetreHeight)/3)-22;
-		
+		var topScroll = $(document).scrollTop();
+
+		if(fenetreHeight < (windowInnerHeight - 40))
+			topScroll += ((windowInnerHeight-fenetreHeight)/3)-22;
+
 		fenetre.css('top',topScroll);
-		
+
 		$('#lightbox').removeClass('disappear').addClass('appear');
 	},
 	events : {
-        'click #closeLightbox' : 'closeLightbox',
-        'click #lightbox-overlay' : 'closeLightbox'
-    },
-    closeLightbox : function(e) {
-    	/*var lightbox = $('#lightbox');
-    	lightbox.removeClass('appear').addClass('disappear');
-		$('#lightbox-overlay').on(Portfolio.nameTransitionEnd(),function(e){lightbox.remove();router.navigate('', {trigger: true});});*/
+		'click #closeLightbox' : 'closeLightbox',
+		'click #lightbox-overlay' : 'closeLightbox'
+	},
+	closeLightbox : function(e) {
 		router.navigate('home', {trigger: true});
-    }
+	}
 });
 
 
@@ -92,23 +89,22 @@ Portfolio.WorkModelView = Backbone.View.extend({
 
 Portfolio.Router = Backbone.Router.extend({
 	initialize : function() {
-	    this.myWorks = new Portfolio.WorksCollection();
+		this.myWorks = new Portfolio.WorksCollection();
 		this.myWorksView = new Portfolio.WorksCollectionView({collection: this.myWorks});
 		this.myWorks.fetch();
 	},
-    routes : {
-        "work/:id" : "lightboxWork",
-        "home" : "home",
-        "" : "home"
-    },
+	routes : {
+		"work/:id" : "lightboxWork",
+		"home" : "home",
+		"" : "home"
+	},
 	lightboxWork : function(id) {
 		var self = this;
 		var myWork = this.myWorks.get(id);
 		if(myWork)
 			this.showWork(myWork);
 		else
-			this.myWorks.once('sync', function(){self.lightboxWork(id)});
-		
+			this.myWorks.once('sync', function(){self.lightboxWork(id);});
 	},
 	showWork : function(work){
 		var myWorkView = new Portfolio.WorkModelView({model: work});

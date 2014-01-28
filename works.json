@@ -1,4 +1,46 @@
-[ 
+[
+  {
+      "title": "PMU Point de vente", 
+      "slug": "pmu-eipdv",
+      "thumbnail": {
+            "title": "PMU Point de vente",
+            "img": {
+                  "src": "img/pmu-eipdv.png",
+                  "alt": "Application web en point de vente de PMU"
+            },
+            "body": "Développement de l'application web mobile avec Require, Backbone et Marionette. Connectée à une API JSON. Prévu pour grand écran tactile IE10."
+      },
+      "img":[
+            "project/pmu-eipdv/image01.png",
+            "project/pmu-eipdv/image02.png",
+            "project/pmu-eipdv/image03.png"
+      ],
+      "presentation":"Application web destinée aux points de vente physique PMU. Elle permet de consulter rapidement toutes les courses de la journée sur une timeline qui s’actualise en temps réel via Websocket. Il est aussi possible de consulter en détail les participants d’une courses, les cotes et les resultats. La web-app est prévue pour tourner sur des écrans tactiles 1080p orientés en portrait sur IE10 sur Windows 8 pour profiter du support tactile natif de l’OS mais étant respectueux des standards elle tourne aussi sur les autres navigateurs à jour.",
+      "context":"Projet professionnel réalisé chez <a href=\"http://www.useradgents.com\" target=\"_blank\">userADgents</a>.",
+      "state":"Disponible dans certains points de vente PMU.",
+      "skill":"JavaScript, Backbone.js, Marionette.js, Require.js, Underscore.js, jQuery, HTML 5, CSS 3, WebSocket."
+  },
+  {
+      "title": "GDF Zenbox webapp", 
+      "slug": "gdf",
+      "thumbnail": {
+            "title": "GDF Zenbox",
+            "img": {
+                  "src": "img/gdf.png",
+                  "alt": "Application web mobile de GDF Zenbox"
+            },
+            "body": "Développement de l'application web mobile avec Require, Backbone et Marionette. Connectée à une API SOAP. Compatible iOS et Android."
+      },
+      "img":[
+            "project/gdf/image01.png",
+            "project/gdf/image02.png",
+            "project/gdf/image03.png"
+      ],
+      "presentation":"Application web mobile officielle de GDF SUEZ pour les clients possédant la DolceVita Zenbox. Elle permet la consultation de sa consommation de gaz et d'électricité au jour, à la semaine et au mois. Il est aussi possible de créer une alerte de consommation pour être prévenu lors d’un dépassement de consommation inhabituel. La web-app est indépendante et n’est liée à aucune couche de médiation pour consommer l’API SOAP, c’est le front qui s’occupe de parser le XML. Les graphiques sont créés et animé en Canvas avec la librairie RGraph.",
+      "context":"Projet professionnel réalisé chez <a href=\"http://www.useradgents.com\" target=\"_blank\">userADgents</a>.",
+      "state":"Accessible pour les clients possédant la DolceVita Zenbox.",
+      "skill":"JavaScript, Backbone.js, Marionette.js, Require.js, Underscore.js, jQuery, HTML 5, CSS 3, Canvas."
+  },
   {
       "title": "Thalys webapp", 
       "slug": "thalys",
