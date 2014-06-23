@@ -1,5 +1,47 @@
 [
   {
+      "title": "Heart.css", 
+      "slug": "heart-css",
+      "thumbnail": {
+            "title": "Heart.css",
+            "img": {
+                  "src": "img/heart-css.jpg",
+                  "alt": "Heart.css micro-framework"
+            },
+            "body": "Heart.css est un micro-framework destiné à construire le layout d'une Single Page Application. Compatible multi-navigateurs. Responsive design. Mobile-first."
+      },
+      "img":[
+            "project/heart-css/image01.jpg",
+            "project/heart-css/image02.png",
+            "project/heart-css/image03.png"
+      ],
+      "presentation":"Heart.css est un micro-framework destiné à décrire le layout d'une Single Page Application. Il est construit pour la conception d'une application au lieu d'un document et il ne fournit pas de style graphique ou typographique comme Bootstrap ou Fondation. Ce framework a été construit avec l'approche mobile-first et possède un layout fluide. Ainsi, il est possible de l'utiliser pour faciliter la construction d’une application web responsive. Heart.css a été testé sur Chrome Mac et Android, Firefox Mac et Android, Safari Mac et iOS, le navigateur par défaut Android 4.X, BlackBerry 10, Opera Mac et Android, Internet Explorer 10 Windows 8, RT et mobile.",
+      "context":"Projet personnel open-source.",
+      "state":"Disponible sur <a href=\"http://freddy03h.github.io/heart/\" target=\"_blank\">Github</a> et utilisé dans les webapps que je développe.<br/>Des applications statiques servant d'exemples sont testables : <a href=\"http://freddy03h.github.io/heart/html/app-like-ios.html\" target=\"_blank\">Contacts</a> et <a href=\"http://freddy03h.github.io/heart/html/app-like-android.html\" target=\"_blank\">Mail</a>",
+      "skill":"CSS 3, Sass, Modernizr."
+  },
+  {
+      "title": "PMU Gestion de compte", 
+      "slug": "pmu-gcmv",
+      "thumbnail": {
+            "title": "PMU Gestion de compte",
+            "img": {
+                  "src": "img/pmu-gcmv.jpg",
+                  "alt": "Application web de gestion de compte PMU"
+            },
+            "body": "Développement de l'application web avec Require, Backbone et Marionette. Connectée à une API JSON. Prévu pour mobile, tablette et desktop. Web et Hybride."
+      },
+      "img":[
+            "project/pmu-gcmv/image01.jpg",
+            "project/pmu-gcmv/image02.jpg",
+            "project/pmu-gcmv/image03.jpg"
+      ],
+      "presentation":"Application web responsive destinée à être accesible depuis lee web sur terminaux desktop, tablette et mobile ainsi que dans les différentes applications natives mobiles et tablettes du PMU. Elle permet de créer un compte et de le gérer. Fonctionnalités de consultation des paris passés et en cours, d’approvisionnement et de retrait d’argent du compte, de modification des ses informations personnelles et d’édition des paramètres d’autolimitation. L’interface s’adapte selon le type de compte de l’utilisateur connecté.",
+      "context":"Projet professionnel réalisé chez <a href=\"http://www.useradgents.com\" target=\"_blank\">userADgents</a>.",
+      "state":"Disponible dans les applications natives du PMU et sur le web.",
+      "skill":"JavaScript, Backbone.js, Marionette.js, Require.js, Yeoman, Grunt, Bower, Node.js, NPM, Mocha, Shai, Underscore.js, jQuery, HTML 5, CSS 3."
+  },
+  {
       "title": "PMU Point de vente", 
       "slug": "pmu-eipdv",
       "thumbnail": {
